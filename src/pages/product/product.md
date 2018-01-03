@@ -1,5 +1,5 @@
 ---
-templateKey: 'product-page'
+templateKey: product-page
 path: /products
 title: Our Coffee
 image: /img/jumbotron.jpg
@@ -13,8 +13,8 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
+        We sell green and double-roasted coffee beans that are sourced directly
+        from independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
@@ -77,13 +77,6 @@ pricing:
     monthly subscription plans to receive great coffee at your doorstep each
     month. Contact us about more details and payment info.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
     - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
       items:
         - 6 lbs of coffee per month
@@ -91,6 +84,13 @@ pricing:
         - Up to 4 different varieties of beans
       plan: Big
       price: '80'
+    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+      items:
+        - 3 lbs of coffee per month
+        - Green or roasted beans"
+        - One or two varieties of beans"
+      plan: Small
+      price: '50'
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
         - Whatever you need
@@ -99,3 +99,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
